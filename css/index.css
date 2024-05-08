@@ -54,6 +54,12 @@ body{
 }
 .front nav ul li:nth-child(5){
     position: relative;
+    color:  #d0d5e3;
+    font-size: small;
+    text-decoration: none;
+}
+.front nav ul li:nth-child(5):hover{
+    color: white; 
 }
 .front nav ul li:nth-child(6){
     flex: 0.3 108 auto;   
