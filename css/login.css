@@ -202,3 +202,9 @@ input:active,input:hover{
   box-shadow: 0 0 40px rgba(8,7,16,0.6);
   transform: scale(1.02);
  }
+ @media(max-width:500px) {
+  form {
+    width:80%;
+    margin: 0 0 0 7%;
+    padding: 20% 35px;
+  }}
