@@ -636,9 +636,7 @@ top: 82%;}
     height: 23em;
 }
 @media(max-width:1290px){
-    .front nav ul li:nth-child(7) .up{
-    margin-left: -30% !important;
-}
+
     .sits li {                           /*48px 100px */
         margin: 1em 3em 0 0; }
     .sits ul{
@@ -652,6 +650,7 @@ top: 82%;}
 
 }
 @media(max-width:1190px) {
+   
     .front{
     background-position: calc(96%);
     }
@@ -670,6 +669,7 @@ top: 82%;}
         
 }
 @media(max-width:1030px) {
+  
     .front{
         background-position: calc(93%) 17%;
         background-size: 48%; }
@@ -704,6 +704,9 @@ top: 82%;}
 }
 
 @media(max-width:900px) {
+    .front nav ul li:nth-child(7) .up{
+        margin-left: -30% !important;
+    }
 .front {
     background-position: calc(99%);
     background-size: 55%;
