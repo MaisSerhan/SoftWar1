@@ -210,4 +210,5 @@ text-align: center;
 @media(max-width:500px) {
   form {
     width:80%;
+    margin: 0 0 0 7%;
   }}
