@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <h1 > C++ if Statement</h1>
+    <div class="row2">
+
+    </div>
+    <p>Decision-making in C++ helps to write decision-driven statements and execute a particular set of code based on certain conditions.
+
+        The C++ if statement is the most simple decision-making statement. It is used to decide whether a certain statement or block of statements will be executed or not executed based on a certain type of condition.</p>
+        <div class="img1">
+            <img src="photo/If-statement-GeeksforGeeks1.jpg" />
+        </div>
+<h3>Syntax</h3>
+<div class="row2">
+
+</div>
+<div class="iff">
+ <p> if(condition) </p>  
+<p>{</p>
+  <p> // Statements to execute if</p>
+ <p>  // condition is true</p>
+<p>}</p>
+</div>
+<h3>Working of if statement in C++</h3>
+<div class="iff">
+    <p>Control falls into the if block.</p>
+<p>The flow jumps to Condition.</p>
+<p>Condition is tested. </p>
+
+<p>If Condition yields true, goto Step 4.
+    If Condition yields false, goto Step 5.</p>
+<p>The if-block or the body inside the if is executed.
+    Flow steps out of the if block.</p>
+</div>
+    <div class="row2">
+
+    </div>
+<h3>Flowchart</h3>
+<div class="img1">
+    <img src="photo/C-Cpp-if.png" />
+</div>
+
+<p>If we do not provide the curly braces ‘{‘ and ‘}’ after if( condition ) then by default if statement will consider the immediate one statement to be inside its block.</p>
+<h3>For example:</h3>
+<div class="iff">
+  <p>  if(condition)  </p>  
+<p>statement1; </p>  
+<p>statement2;</p> 
+<p> // Here if the condition is true if block will consider only statement1 to be inside  its block.</p>
+</div>
+<h2>Examples of if statement in C++</h2>
+<h2>
+    Example 1
+</h2>
+<div class="row2">
+
+</div>
+<p>Below program demonstrates the use of if statement in C.</p>
+<div class="iff">
+   <p> #include <iostream>  </p>
+    <p>    using namespace std; </p> 
+            
+    <p>    int main()  </p>
+       <p> { </p> 
+           <p> int i = 10; </p> 
+            
+         <p>  if(i < 15){   </p>
+           <p>     cout << "10 is less than 15 \n";  </p>
+          <p>  }  </p>
+            
+          <p>  cout << "I am Not in if";  </p>
+       <p> }</p>
+</div>
+
+<h3>Explanation:
+</h3>
+<div class="iff">
+    <ul>
+        <li>Program starts.
+            </li>
+          <li>  i is initialized to 10.
+           </li>
+           <li>
+            if-condition is checked. 10 < 15, yields true.
+           </li>
+           <li>“10 is less than 15” gets printed.
+           </li>
+           <li> if condition yields false. “I am Not in if” is printed.</li>
+    </ul>
+</div>
+<h2>Example 2</h2>
+<p>Below program illustrates another example of if statement in C++.
+</p>
+<div class="iff">
+ <p>   // C++ program to illustrate If statement </p>
+  
+<p>#include <iostream> </p>
+<p>using namespace std; </p>
+<p>  
+    int main() </p>
+<p>{</p> 
+   <p> int i = 10; 
+</p>
+   <p> if (i > 15) { </p>
+      <p>  cout << "10 is greater than 15 \n"; </p>
+    <p>  cout << "10 is greater than 15 \n"; </p>
+<p>    cout << "I am Not in if"; </p>
+<p>    }</p>
+</div>
+<h3>Output
+
+    </h3>
+    <div class="iff">
+        <p>
+            I am Not in if
+            </p>
+    </div>
+    <div class="row2">
+
+    </div>
+    <h1>C++ if else Statement</h1>
+    <div class="row2">
+
+    </div>
+    <p>Decision Making in C++ helps to write decision-driven statements and execute a particular set of code based on certain conditions.
+
+        The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false. Here comes the C++ else statement. We can use the else statement with if statement to execute a block of code when the condition is false.</p>
+        <div class="img1">
+            <img src="photo/If-else-statement-GeeksforGeeks1.jpg" />
+        </div>
+        
+    <h2>Syntax</h2>
+    <div class="iff">
+       <p> if (condition)</p>
+        <p>{</p>
+          <p>  // Executes this block if</p>
+          <p>  // condition is true</p>
+        <p>}</p>
+        <p>else</p>
+        <p>{</p>
+           <p> // Executes this block if</p>
+         <p>   // condition is false</p>
+        <p>}</p>
+    </div>
+    <h2>Working of if-else statement
+    </h2>
+    <div class="iff">
+        <p> Control falls into the if block.
+        </p>
+         <p>The flow jumps to Condition.</p>
+           <p>Condition is tested</p>
+           <p> If Condition yields true, goto Step 4.
+        </p>
+         <p>If Condition yields false, goto Step 5.</p>
+         <p>The if-block or the body inside the if is executed.</p>
+         <p>The else block or the body inside the else is executed.</p>
+            <p> Flow exits the if-else block.</p>
+     </div>
+<h2>Flowchart if-else:</h2>
+<div class="img1">
+    <img src="photo/C-Cpp-if-else.png" />
+</div>
+<h2>Examples of if else statement in C++</h2>
+<div class="iff">
+   <p> // C++ program to illustrate if-else statement  </p>
+    
+<p>#include <iostream>  </p>
+<p>using namespace std;  </p>
+    
+<p>int main()  </p>
+<p>{</p> 
+  <p>  int i = 20;  </p>
+    
+  <p>  // Check if i is 10  </p>
+  <p> if (i == 10)  </p> 
+       <p> cout << "i is 10";  </p>
+    
+    <p>// Since is not 10 </p> 
+   <p> // Then execute the else statement  
+    else</p>
+  <p>      cout << "i is 20\n";  </p>
+    
+   <p> cout << "Outside if-else block";  </p>
+    
+    <p>return 0;  </p>
+<p>}</p>
+</div>
+<h2>Output</h2>
+<div class="iff">
+    <p>i is 20</p>
+    <p>Outside if-else block
+    </p>
+</div>
+<h3>Explanation:</h3>
+<ul>
+    <li>Program starts.</li>
+    <li>i is initialized to 20.</li>
+    <li>if-condition is checked. i == 10, yields false.</li>
+    <li>flow enters the else block.</li>
+    <li>“i is 20” is printed</li>
+    <li>“Outside if-else block” is printed.</li>
+</ul>
+<div class="row2">
+
+</div>
+<h1>C++ Nested if-else Statement</h1>
+<div class="row">
+
+</div>
+<p>In C++, there are various types of conditional statements such as if, if-else, nested if, nested if-else, and switch. In this article, we will learn about the nested if-else statement.</p>
+<h3>What are Nested if-else Statements?</h3> 
+<p>Nested if-else statements are those statements in which there is an if statement inside another if else. We use nested if-else statements when we want to implement multilayer conditions(condition inside the condition inside the condition and so on). C++ allows any number of nesting levels.</p>
+<h3>Basic Syntax of Nested if-else</h3>
+<div class="iff">
+    <p>if(condition1)</p>
+<p>{</p>
+    <p>// Code to be executed </p>
+<p>    if(condition2)</p>
+    <p>{</p>
+     <p>   // Code to be executed</p>
+    <p>}</p>
+    <p>else</p>
+    <p>{</p>
+       <p>  // Code to be executed</p>
+    <p>}</p>
+<p>}</p>
+<p>else</p>
+<p>{</p>
+   <p> // code to be executed</p>
+<p>}</p>
+</div>
+<p>In the above syntax of nested if-else statements, the inner if-else statement is executed only if ‘condition1’ becomes true otherwise else statement will be executed and this same rule will be applicable for inner if-else statements.</p>
+<h3>Flowchart of Nested if-else
+</h3>
+<div class="img1">
+    <img src="photo/nested-if-else-flowchart.webp" />
+</div>
+<h3>Examples of Nested if-else</h3>
+<p>The following C++ programs demonstrate the use of nested if-else statements.</p>
+<h3>Check the greatest of three numbers</h3>
+<p>In the below example, we will find the greatest number out of the three given numbers using nested if-else statements.
+</p>
+<h4>Algorithm</h4>
+<div class="olo">
+    <ol>
+        <li>If ( a < b ) evaluates to true, then</li>
+        <ol>
+            <li>If ( c < b ) is true, then b is greatest.</li>
+            <li>else c is greatest.
+            </li>
+        </ol>
+        <li>If ( a < b ) evaluates to false, then
+        </li>
+        <ol>
+            <li>If ( c < a ) is true, then a is greatest.</li>
+            <li>else c is greatest.
+            </li>
+        </ol>
+    </ol>
+</div>
+<h4>Implementation in C++
+</h4>
+<div class="iff">
+  <p>  // C++ Program to evaluate largest of the three numbers</p> 
+<p>// using nested if else </p>
+<p>#include <iostream> </p>
+<p>using namespace std; </p>
+  
+<p>int main() </p>
+<p>{</p>
+    <p>// declaring three numbers </p>
+    <p>int a = 10; </p>
+<p>    int b = 2; </p>
+   <p> int c = 6;</p> 
+  
+   <p> // outermost if else  </p>
+    <p>if (a < b) { </p>
+     <p>   // nested if else</p> 
+      <p>  if (c < b) { </p>
+          <p>  printf("%d is the greatest", b); </p>
+        <p>}</p>
+        <p>else { </p>
+          <p>  printf("%d is the greatest", c); </p>
+        <p>}</p>
+    <p>}</p>
+ <p>   else { </p>
+      <p>  // nested if else </p>
+        <p>if (c < a) { </p>
+         <p>   printf("%d is the greatest", a); </p>
+        <p>}</p>
+       <p> else {</p> 
+           <p> printf("%d is the greatest", c); </p>
+        <p>}</p>
+        <p>}</p>
+  
+<p>    return 0; </p>
+<p>    }</p>
+</div>
+<h3>Output</h3>
+<div class="olo">
+    <p>10 is the greatest</p>
+</div>
+<p> You can watch this video</p>
+<a href="https://www.youtube.com/watch?v=F56Bo4I0GhA"> اضغط هنا </a>
+
+</body>
+</html>

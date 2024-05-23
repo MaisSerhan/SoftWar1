@@ -16,7 +16,7 @@ background-position-x: 793px;
 background-size: 46%;
 background-position-y: 30px;
    }
-  
+
    .background{
     width: 430px;
     height: 520px;
@@ -207,8 +207,3 @@ text-align: center;
 	/* mix-blend-mode: multiply; */
 	text-shadow: -5px 5px 0px rgb(0, 0, 0), -10px 10px 0px rgb(87, 87, 88);
 }
-@media(max-width:500px) {
-  form {
-    width:80%;
-    margin: 0 0 0 7%;
-  }}
