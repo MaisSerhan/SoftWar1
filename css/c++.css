@@ -9,7 +9,9 @@ body{
    background-position-y: 270px;
    color: white;
 }
-
+button a{
+  color:white;
+} 
 .season {
 	height: fit-content;
 	display: flex;

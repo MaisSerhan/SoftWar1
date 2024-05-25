@@ -12,6 +12,10 @@ body{
     background-attachment: fixed;
     background-position: calc(80% );*/
 }
+.start{
+    color:white;
+    text-decoration: none;
+}
 .front{
     background-image: url(/photo/background2.png);
     background-repeat: no-repeat;
